@@ -19,6 +19,7 @@
     <module>cloud-providerzk-payment8004</module>
     <module>cloud-consumerzk-order8010</module>
     <module>cloud-consumer-feign-order8010</module>
+    <module>cloud-provider-hystrix-payment8001</module>
   </modules>
 
 
