@@ -16,6 +16,7 @@
         <module name="cloud-consumer-order8010" />
         <module name="cloud-consumerzk-order8010" />
         <module name="cloud-consumer-feign-order8010" />
+        <module name="cloud-consumer-feign-hystrix-order8010" />
         <module name="cloud-provider-payment8002" />
       </profile>
     </annotationProcessing>
