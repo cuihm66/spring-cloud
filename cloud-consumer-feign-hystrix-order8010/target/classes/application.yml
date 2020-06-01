@@ -11,7 +11,7 @@ eureka:
       defaultZone: http://eureka7001:7001/eureka,http://eureka7002:7002/eureka
 logging:
   level:
-    org.example.springcloud.service.PaymentFeignService: debug
+    org.example.springcloud.service.PaymentHystrixService: debug
 ribbon:
   ReadTimeout: 5000
   ConnectTimeout: 5000
