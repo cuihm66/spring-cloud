@@ -18,10 +18,12 @@ hs_err_pid*
 .classpath
 .project
 target
+**/target/
 .settings
 
 # Idea
 .idea
+**/.idea
 *.iml
 
 # git
