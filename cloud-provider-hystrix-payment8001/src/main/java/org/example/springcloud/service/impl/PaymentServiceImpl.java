@@ -51,6 +51,7 @@ public class PaymentServiceImpl implements PaymentService {
             @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "60")// 失败率达到多少后跳闸
     }
     )
+    @Override
     public String paymentCircuitBreaker(@PathVariable("id") Integer id) {
         if (id < 0) {
             throw new RuntimeException("*****id不能是负数");

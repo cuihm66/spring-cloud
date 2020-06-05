@@ -1,4 +1,4 @@
-package org.example.springcloud.Controller;
+package org.example.springcloud.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import lombok.extern.slf4j.Slf4j;

@@ -38,7 +38,7 @@ public class OrderController {
     @Resource
     private LoadBalancer loadBalancer;
     @GetMapping("consumer/payment/lb")
-    public String getpaymentLB() {
+    public String getPaymentLB() {
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
         if(instances == null || instances.size() < 1) {
             return null;
