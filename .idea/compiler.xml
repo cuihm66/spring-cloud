@@ -32,6 +32,9 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-providerzk-payment8004" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloudalibaba-provider-payment9002" />
       </profile>
     </annotationProcessing>
   </component>
